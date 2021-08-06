@@ -7,7 +7,7 @@ const SEARCH_API =
   'https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=';
 // const IMG_API = "https://image.tmdb.org/t/p/w1280"
 
-function Apps() {
+function Home() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [page, setPage] = useState(1);
@@ -80,4 +80,4 @@ function Apps() {
   );
 }
 
-export default Apps;
+export default Home;
